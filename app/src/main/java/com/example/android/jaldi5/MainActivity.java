@@ -39,20 +39,18 @@ public class MainActivity extends AppCompatActivity {
         //Declare the Buttons and onclick events for each of them.
         btnGenNumb = (Button) findViewById(R.id.btnGenNumber);
         btnExit = (Button) findViewById(R.id.btnExit);
-        btnGameOver = (Button) findViewById(R.id.btnGameOver);
 
         //Assign the onClick events to the buttons.
         btnGenNumb.setOnClickListener(this.onClickListener);
         btnExit.setOnClickListener(this.onClickListener);
-        btnGameOver.setOnClickListener(this.onClickListener);
-
-    }
+  }
 
 
     public void jaldi5_Init() {
 
         TableLayout prices = (TableLayout) findViewById(R.id.main_table);
         prices.setStretchAllColumns(true);
+        prices.setPadding(40, 40, 40, 40);
         int k = 1;
 
         for (int i = 1; i <= 10; i++) {
@@ -63,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 c1.setId(k);
                 c1.setText(String.valueOf(k));
                 c1.setTextSize(15);
-                c1.setPadding(24, 24, 24, 24);
+                c1.setPadding(30, 30, 30, 30);
                 tr.addView(c1);
 
                 k++;
@@ -92,7 +90,6 @@ public class MainActivity extends AppCompatActivity {
                     numbList.add(genNumber);
                     lblGeneratedNum.setText(Integer.toString(genNumber));
                     highlightNumb.setTextColor(Color.WHITE);
-                    highlightNumb.setGravity(View.TEXT_ALIGNMENT_CENTER);
                     highlightNumb.setTextSize(15);
                     highlightNumb.setTypeface(Typeface.DEFAULT_BOLD);
                     highlightNumb.setBackgroundDrawable(getResources().getDrawable(R.drawable.circle));
@@ -119,10 +116,6 @@ public class MainActivity extends AppCompatActivity {
 
                     break;
 
-                case R.id.btnGameOver:
-                    Log.i("Btn Gameover", "Game Over Function Called");
-
-                    break;
             }
         }
     };

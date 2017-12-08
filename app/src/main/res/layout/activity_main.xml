@@ -36,6 +36,7 @@
             android:id="@+id/btnGenNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:width="310dp"
             android:text="@string/lblBtnGenNumber" />
 
        <TextView
@@ -53,9 +54,4 @@
         android:layout_height="wrap_content"
         android:text="@string/lblBtnExit" />
 
-    <Button
-        android:id="@+id/btnGameOver"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/lblBtnGameOver" />
 </LinearLayout>
