@@ -1,6 +1,7 @@
 package com.example.android.jaldi5;
 
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -61,10 +62,10 @@ public class MainActivity extends AppCompatActivity {
                 TextView c1 = new TextView(this);
                 c1.setId(k);
                 c1.setText(String.valueOf(k));
+                c1.setTextSize(15);
+                c1.setPadding(24, 24, 24, 24);
                 tr.addView(c1);
-              //  tr.setGravity(View.TEXT_ALIGNMENT_CENTER);
-                //tr.setGravity(View.TEXT_ALIGNMENT_GRAVITY);
-                tr.setPadding(28, 28, 28, 5);
+
                 k++;
             }
             prices.addView(tr);
@@ -90,7 +91,10 @@ public class MainActivity extends AppCompatActivity {
                     TextView highlightNumb = (TextView) findViewById(resID);
                     numbList.add(genNumber);
                     lblGeneratedNum.setText(Integer.toString(genNumber));
-                   // highlightNumb.setPadding(5, 5, 5, 5);
+                    highlightNumb.setTextColor(Color.WHITE);
+                    highlightNumb.setGravity(View.TEXT_ALIGNMENT_CENTER);
+                    highlightNumb.setTextSize(15);
+                    highlightNumb.setTypeface(Typeface.DEFAULT_BOLD);
                     highlightNumb.setBackgroundDrawable(getResources().getDrawable(R.drawable.circle));
                 }
             } else {
