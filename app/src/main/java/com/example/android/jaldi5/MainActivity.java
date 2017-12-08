@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 c1.setId(k);
                 c1.setText(String.valueOf(k));
                 c1.setTextSize(15);
+                c1.setTypeface(Typeface.DEFAULT_BOLD);
                 c1.setPadding(30, 30, 30, 30);
                 tr.addView(c1);
 
@@ -91,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                     lblGeneratedNum.setText(Integer.toString(genNumber));
                     highlightNumb.setTextColor(Color.WHITE);
                     highlightNumb.setTextSize(15);
-                    highlightNumb.setTypeface(Typeface.DEFAULT_BOLD);
+                   //highlightNumb.setTypeface(Typeface.DEFAULT_BOLD);
                     highlightNumb.setBackgroundDrawable(getResources().getDrawable(R.drawable.circle));
                 }
             } else {

@@ -36,13 +36,15 @@
             android:id="@+id/btnGenNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:width="310dp"
+            android:width="290dp"
             android:text="@string/lblBtnGenNumber" />
 
        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/lblGenNumber"
+           android:width="100dp"
+           android:gravity="center"
             android:textSize="30dp"
             android:text="@string/lblGenNumber" />
 
