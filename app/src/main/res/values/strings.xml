@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jaldi</string>
+    <string name="main_table">Number Table</string>
+    <string name="lblBtnGenNumber">Generate Number!</string>
+    <string name="lblBtnGameOver">Game Over!!</string>
+    <string name="lblBtnExit">Exit</string>
+    <string name="imgLogoname">Hi5 Logo</string>
+    <string name="lblGenNumber">0</string>
+</resources>
