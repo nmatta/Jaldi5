@@ -1,9 +1,11 @@
 package com.example.android.jaldi5;
 
 import android.graphics.Color;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -59,9 +61,10 @@ public class MainActivity extends AppCompatActivity {
                 TextView c1 = new TextView(this);
                 c1.setId(k);
                 c1.setText(String.valueOf(k));
-                c1.setTextSize(17);
                 tr.addView(c1);
-                tr.setPadding(30, 20, 20, 20);
+              //  tr.setGravity(View.TEXT_ALIGNMENT_CENTER);
+                //tr.setGravity(View.TEXT_ALIGNMENT_GRAVITY);
+                tr.setPadding(28, 28, 28, 5);
                 k++;
             }
             prices.addView(tr);
@@ -87,9 +90,8 @@ public class MainActivity extends AppCompatActivity {
                     TextView highlightNumb = (TextView) findViewById(resID);
                     numbList.add(genNumber);
                     lblGeneratedNum.setText(Integer.toString(genNumber));
-
-                    highlightNumb.setBackgroundColor(123);
-                    Log.d("Size", "" + numbList.size());
+                   // highlightNumb.setPadding(5, 5, 5, 5);
+                    highlightNumb.setBackgroundDrawable(getResources().getDrawable(R.drawable.circle));
                 }
             } else {
                 btnGenNumber.setEnabled(false);
