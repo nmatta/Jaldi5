@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void jaldi5_Init() {
 
+        //Generate the Table with No's from 1-100.
+
         TableLayout prices = (TableLayout) findViewById(R.id.main_table);
         prices.setStretchAllColumns(true);
         prices.setPadding(40, 40, 40, 40);
@@ -64,13 +66,13 @@ public class MainActivity extends AppCompatActivity {
                 c1.setTypeface(Typeface.DEFAULT_BOLD);
                 c1.setPadding(30, 30, 30, 30);
                 tr.addView(c1);
-
                 k++;
             }
             prices.addView(tr);
         }
     }
 
+    //Generate Random unique no. with a given range below function generates from 1-100.
 
     public void randomNumGen() {
         try {
@@ -85,14 +87,13 @@ public class MainActivity extends AppCompatActivity {
                 if (numbList.contains(genNumber)) {
                     randomNumGen();
                 } else {
+                    //below resID is variable is to fetch dynamic values.
                     String dynID = String.valueOf(genNumber);
                     int resID = getResources().getIdentifier(dynID, "id", getPackageName());
                     TextView highlightNumb = (TextView) findViewById(resID);
                     numbList.add(genNumber);
                     lblGeneratedNum.setText(Integer.toString(genNumber));
                     highlightNumb.setTextColor(Color.WHITE);
-                    highlightNumb.setTextSize(15);
-                   //highlightNumb.setTypeface(Typeface.DEFAULT_BOLD);
                     highlightNumb.setBackgroundDrawable(getResources().getDrawable(R.drawable.circle));
                 }
             } else {
@@ -101,10 +102,10 @@ public class MainActivity extends AppCompatActivity {
             }
         } catch (Exception e) {
             e.printStackTrace();
-            Log.e("Memory exceptions", "exceptions" + e);
         }
     }
 
+    //Generic code for Buttons (Common code)
     private View.OnClickListener onClickListener = new View.OnClickListener() {
         public void onClick(View v) {
 
@@ -112,9 +113,9 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.btnGenNumber:
                     randomNumGen();
                     break;
+
                 case R.id.btnExit:
                     Log.i("Btn Exit", "Exit Game Function Called");
-
                     break;
 
             }
