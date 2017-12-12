@@ -24,3 +24,5 @@ public class ExampleInstrumentedTest {
         assertEquals("com.example.android.jaldi5", appContext.getPackageName());
     }
 }
+
+
