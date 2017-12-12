@@ -1,0 +1,7 @@
+#Sun Dec 03 22:22:52 IST 2017
+base.0=/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7af11d48477f2e52f96241e35e0edf7675d3932c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f0e700167002af8369523f85c0e7ada70fc65206/classes.dex
+base.1=/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f0e700167002af8369523f85c0e7ada70fc65206
+file.0=/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7af11d48477f2e52f96241e35e0edf7675d3932c/classes.dex

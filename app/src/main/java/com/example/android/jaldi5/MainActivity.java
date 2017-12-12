@@ -1,8 +1,10 @@
 package com.example.android.jaldi5;
 
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,6 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -43,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         //Assign the onClick events to the buttons.
         btnGenNumb.setOnClickListener(this.onClickListener);
         btnExit.setOnClickListener(this.onClickListener);
-  }
+    }
 
 
     public void jaldi5_Init() {
@@ -105,6 +108,34 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void dialogExit() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+
+        builder.setTitle("Exit");
+        builder.setMessage("Do you really want to exit the application!");
+
+        //Yes Button
+        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
+            }
+        });
+
+        //No Button
+        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+
+            }
+        });
+
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+    }
+
+
     //Generic code for Buttons (Common code)
     private View.OnClickListener onClickListener = new View.OnClickListener() {
         public void onClick(View v) {
@@ -115,11 +146,12 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.btnExit:
-                    Log.i("Btn Exit", "Exit Game Function Called");
+                    dialogExit();
                     break;
-
             }
+
         }
+
     };
 
 

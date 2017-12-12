@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_257c190dba3a3bd8bc47d5e2607c928c8fa1eba4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f0a1244ab742f1e845b08823b190d1bcb9b3d12">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f0e700167002af8369523f85c0e7ada70fc65206/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_4c3a2b3076898f89c98caa5a6a146f78d5e492a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_e9088788f82c0ead06205620d9672c0a57705731/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_35968a8be7644804f3b583b59c81ec7d5e547e78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_c29c6278a882efcd2736540d288db3d237b3c770/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6dcc1fc2186128a14ba842941fa7ed4fce4c9c73">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7af11d48477f2e52f96241e35e0edf7675d3932c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_3246a5924efe0cfe8793248c61b77690f825f7a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_47bc230c393f85e4eb8febf84a32dae194f64523/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_7b0be2f0c50978f0f88ad80a385872180f942c99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_0be2347972960541660b8dc8365f12c7cf800286/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/nmatta/AndroidStudioProjects/Jaldi52/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_f27dd37b807070c10afba293020364132a13655f/classes.dex" />
+    </item>
+
+</items>
