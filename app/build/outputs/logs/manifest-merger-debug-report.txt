@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/nmatta/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/71176d18aa94f4bb3b379f37e133b2e9/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/nmatta/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/f1345aab0285c084fba4dea50a617071/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/nmatta/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/40f19203d5d90d07de734eda79df1e88/AndroidManifest.xml:17:1-25:12
@@ -13,20 +13,20 @@ MERGED from [com.android.support:support-media-compat:25.1.1] /Users/nmatta/.gra
 MERGED from [com.android.support:support-core-utils:25.1.1] /Users/nmatta/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/c77d3b85a6c325c14d55ee617af5dacb/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-ui:25.1.1] /Users/nmatta/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/7e89d96b4ebf3301bfe08d9688fc789f/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:25.1.1] /Users/nmatta/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/f2c7e7176cc1e54d7bb0c9ce88bee521/AndroidManifest.xml:17:1-27:12
-INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-19:12
 	package
 		ADDED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-20:12
+		ADDED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-19:12
 		INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-20:12
+		ADDED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:1-19:12
 		INJECTED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/nmatta/AndroidStudioProjects/Jaldi5/app/src/main/AndroidManifest.xml:2:11-69

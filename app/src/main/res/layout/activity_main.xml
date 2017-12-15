@@ -50,10 +50,18 @@
 
     </LinearLayout>
 
+
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblBtnNewGame" />
+
     <Button
         android:id="@+id/btnExit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/lblBtnExit" />
+
 
 </LinearLayout>

@@ -6,26 +6,26 @@
     density="560dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1513052492674"
+    timestamp="1513245470137"
     token="7818272084999164182"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="106" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="31" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
     <artifact
-        location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
+        location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/outputs/apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
@@ -34,6 +34,9 @@
         type="SPLIT" />
     <artifact
         location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
         location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -56,17 +59,14 @@
     <artifact
         location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/outputs/apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1513052492674"
+        timestamp="1513245470137"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
+            location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
@@ -75,6 +75,9 @@
             type="SPLIT" />
         <artifact
             location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -97,9 +100,6 @@
         <artifact
             location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/nmatta/AndroidStudioProjects/Jaldi5/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

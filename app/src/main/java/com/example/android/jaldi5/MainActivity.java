@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         prices.setPadding(40, 40, 40, 40);
         int k = 1;
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 9; i++) {
             TableRow tr = new TableRow(this);
 
             for (int j = 1; j <= 10; j++) {
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 c1.setText(String.valueOf(k));
                 c1.setTextSize(15);
                 c1.setTypeface(Typeface.DEFAULT_BOLD);
-                c1.setPadding(30, 30, 30, 30);
+                c1.setPadding(25, 25, 25, 25);
                 tr.addView(c1);
                 k++;
             }
@@ -83,9 +83,9 @@ public class MainActivity extends AppCompatActivity {
             Button btnGenNumber = (Button) findViewById(R.id.btnGenNumber);
 
             Random r = new Random();
-            int genNumber = (r.nextInt(100) + 1);
+            int genNumber = (r.nextInt(90) + 1);
 
-            if (numbList.size() < 100) {
+            if (numbList.size() < 90) {
 
                 if (numbList.contains(genNumber)) {
                     randomNumGen();

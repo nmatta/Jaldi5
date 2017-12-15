@@ -6,4 +6,5 @@
     <string name="lblBtnExit">Exit</string>
     <string name="imgLogoname">Hi5 Logo</string>
     <string name="lblGenNumber">0</string>
+    <string name="lblBtnNewGame">New Game</string>
 </resources>
