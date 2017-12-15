@@ -27,9 +27,11 @@ import static java.sql.Types.NULL;
 public class MainActivity extends AppCompatActivity {
 
     ArrayList numbList = new ArrayList();
+
     Button btnGenNumb;
     Button btnExit;
-    Button btnGameOver;
+    Button btnNewGame;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,33 +44,34 @@ public class MainActivity extends AppCompatActivity {
         //Declare the Buttons and onclick events for each of them.
         btnGenNumb = (Button) findViewById(R.id.btnGenNumber);
         btnExit = (Button) findViewById(R.id.btnExit);
+        btnNewGame = (Button) findViewById(R.id.btnNewGame);
 
         //Assign the onClick events to the buttons.
         btnGenNumb.setOnClickListener(this.onClickListener);
         btnExit.setOnClickListener(this.onClickListener);
+        btnNewGame.setOnClickListener(this.onClickListener);
     }
 
 
     public void jaldi5_Init() {
-
-        //Generate the Table with No's from 1-100.
-
         TableLayout prices = (TableLayout) findViewById(R.id.main_table);
         prices.setStretchAllColumns(true);
         prices.setPadding(40, 40, 40, 40);
         int k = 1;
 
+        //Generate the Table with No's from 1-100.
+
         for (int i = 1; i <= 9; i++) {
             TableRow tr = new TableRow(this);
 
             for (int j = 1; j <= 10; j++) {
-                TextView c1 = new TextView(this);
-                c1.setId(k);
-                c1.setText(String.valueOf(k));
-                c1.setTextSize(15);
-                c1.setTypeface(Typeface.DEFAULT_BOLD);
-                c1.setPadding(25, 25, 25, 25);
-                tr.addView(c1);
+                TextView col = new TextView(this);
+                col.setId(k);
+                col.setText(String.valueOf(k));
+                col.setTextSize(15);
+                col.setTypeface(Typeface.DEFAULT_BOLD);
+                col.setPadding(27, 27, 27, 27);
+                tr.addView(col);
                 k++;
             }
             prices.addView(tr);
@@ -148,6 +151,15 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.btnExit:
                     dialogExit();
                     break;
+
+                case R.id.btnNewGame:
+                    TableLayout prices = (TableLayout) findViewById(R.id.main_table);
+                    TextView lblGeneratedNum = (TextView) findViewById(R.id.lblGenNumber);
+                    prices.removeAllViews();
+                    numbList.clear();
+                    randomNumGen();
+                    break;
+
             }
 
         }
