@@ -111,11 +111,47 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void dialogNewGame() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+
+        builder.setTitle("New Game");
+        builder.setMessage("Do you really want to close the existing game and a start New Game!");
+
+        //Yes Button
+        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                TableLayout prices = (TableLayout) findViewById(R.id.main_table);
+                TextView lblGeneratedNum = (TextView) findViewById(R.id.lblGenNumber);
+                Button btnGenNumber = (Button) findViewById(R.id.btnGenNumber);
+                prices.removeAllViews();
+                numbList.clear();
+                btnGenNumber.setEnabled(true);
+                btnGenNumber.setText("Generate New Number");
+                lblGeneratedNum.setText(Integer.toString(0));
+                jaldi5_Init();
+            }
+        });
+
+        //No Button
+        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+
+            }
+        });
+
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+    }
+
+
     public void dialogExit() {
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 
         builder.setTitle("Exit");
-        builder.setMessage("Do you really want to exit the application!");
+        builder.setMessage("Do you really wanted to exit the application!");
 
         //Yes Button
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
@@ -138,7 +174,6 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.show();
     }
 
-
     //Generic code for Buttons (Common code)
     private View.OnClickListener onClickListener = new View.OnClickListener() {
         public void onClick(View v) {
@@ -153,13 +188,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.btnNewGame:
-                    TableLayout prices = (TableLayout) findViewById(R.id.main_table);
-                    TextView lblGeneratedNum = (TextView) findViewById(R.id.lblGenNumber);
-                    prices.removeAllViews();
-                    numbList.clear();
-                    randomNumGen();
+                    dialogNewGame();
                     break;
-
             }
 
         }
