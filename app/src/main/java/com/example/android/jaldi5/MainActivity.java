@@ -1,6 +1,7 @@
 package com.example.android.jaldi5;
 
 import android.content.DialogInterface;
+import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v4.content.ContextCompat;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         //Initialize the function to generate the label and load all the functionality
         jaldi5_Init();
@@ -115,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 
         builder.setTitle("New Game");
-        builder.setMessage("Do you really want to close the existing game and a start New Game!");
+        builder.setMessage("Do you really want to close the existing game and start a New Game!");
 
         //Yes Button
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
