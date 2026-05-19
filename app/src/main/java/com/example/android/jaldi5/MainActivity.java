@@ -8,26 +8,18 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Random;
 
-import static java.sql.Types.NULL;
-
 public class MainActivity extends AppCompatActivity {
 
-    ArrayList numbList = new ArrayList();
+    ArrayList<Integer> numbList = new ArrayList<>();
 
     Button btnGenNumb;
     Button btnExit;
@@ -95,14 +87,14 @@ public class MainActivity extends AppCompatActivity {
                 if (numbList.contains(genNumber)) {
                     randomNumGen();
                 } else {
-                    //below resID is variable is to fetch dynamic values.
-                    String dynID = String.valueOf(genNumber);
-                    int resID = getResources().getIdentifier(dynID, "id", getPackageName());
-                    TextView highlightNumb = (TextView) findViewById(resID);
-                    numbList.add(genNumber);
-                    lblGeneratedNum.setText(Integer.toString(genNumber));
-                    highlightNumb.setTextColor(Color.WHITE);
-                    highlightNumb.setBackgroundDrawable(getResources().getDrawable(R.drawable.circle));
+                    // Use the generated number directly as the ID since it was set using col.setId(k)
+                    TextView highlightNumb = (TextView) findViewById(genNumber);
+                    if (highlightNumb != null) {
+                        numbList.add(genNumber);
+                        lblGeneratedNum.setText(Integer.toString(genNumber));
+                        highlightNumb.setTextColor(Color.WHITE);
+                        highlightNumb.setBackgroundDrawable(ContextCompat.getDrawable(this, R.drawable.circle));
+                    }
                 }
             } else {
                 btnGenNumber.setEnabled(false);
