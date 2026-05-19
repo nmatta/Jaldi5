@@ -15,11 +15,12 @@ Jaldi5 is an Android-based random number generator application, specifically des
 ## Technical Stack
 - **Platform**: Android
 - **Language**: Java
-- **Build System**: Gradle
-- **Minimum SDK**: 14 (Ice Cream Sandwich)
-- **Target SDK**: 25 (Android 7.1)
-- **UI Framework**: Android XML Layouts (using `TableLayout` and `LinearLayout`)
+- **Build System**: Gradle 8.8
+- **Android Gradle Plugin**: 8.1.0
+- **Minimum SDK**: 21 (Android 5.0 Lollipop)
+- **Target SDK**: 34 (Android 14)
+- **UI Framework**: Android XML Layouts with AndroidX support
 - **Key Components**:
     - `MainActivity.java`: Contains the main logic for UI initialization, random number generation, and button click handling.
     - `activity_main.xml`: Defines the layout of the application.
-    - `strings.xml`: Stores the string resources used in the app.
+    - `LogicUnitTest.java`: Unit tests for verifying the random number generation and uniqueness logic.

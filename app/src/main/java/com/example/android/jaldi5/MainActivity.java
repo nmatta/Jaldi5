@@ -4,9 +4,9 @@ import android.content.DialogInterface;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -171,25 +171,17 @@ public class MainActivity extends AppCompatActivity {
     //Generic code for Buttons (Common code)
     private View.OnClickListener onClickListener = new View.OnClickListener() {
         public void onClick(View v) {
-
-            switch (v.getId()) {
-                case R.id.btnGenNumber:
-                    randomNumGen();
-                    break;
-
-                case R.id.btnExit:
-                    dialogExit();
-                    break;
-
-                case R.id.btnNewGame:
-                    dialogNewGame();
-                    break;
+            int id = v.getId();
+            if (id == R.id.btnGenNumber) {
+                randomNumGen();
+            } else if (id == R.id.btnExit) {
+                dialogExit();
+            } else if (id == R.id.btnNewGame) {
+                dialogNewGame();
             }
-
         }
 
     };
 
 
 }
-
